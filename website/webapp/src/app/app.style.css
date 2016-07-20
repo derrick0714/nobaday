@@ -1,0 +1,98 @@
+main {
+  padding-top: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.navbar a {
+  color: black;
+}
+footer {
+  background-color: #191919;
+  clear: both;
+  display: block;
+}
+.footer-container {
+  padding: 42px 42px 0;
+  min-width: 684px;
+  max-width: 940px;
+  margin: 0 auto;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+}
+.footer-column {
+  min-width: 140px;
+  margin-right: 20px;
+  float: left;
+  color: #999;
+}
+.footer-column li {
+  height: 28px;
+  color: #999;
+  list-style: none;
+}
+.footer-column a {
+  text-decoration: none;
+  color: #999;
+}
+.footer-column a:hover, a:active {
+  color: #fa5400;
+}
+.footer-column-header {
+  font-weight: 400;
+  font-family: OneNikeCurrency, 'TradeGothicW01-BoldCn20 675334', Helvetica, Arial, sans-serif;
+  color: white!important;
+}
+.footer-column-header a {
+  color: white!important;
+}
+
+.navbar{
+  border-bottom: 1px solid #E5E5E5;
+}
+.navbar-nav {
+  display:inline-block;
+  float:none;
+}
+.navbar-collapse{
+  text-align: center;
+}
+.navbar-fixed-top {
+  min-height: 65px;
+}
+.navbar-brand{
+  /*line-height: 68px;
+  padding-top: 0px;
+  padding-bottom: 0px;*/
+}
+.navbar-nav > li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 63px;
+  line-height: 63px;
+  font-weight: 400;
+  font-size: 1.1em;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color:#4e4c4b;
+}
+
+.navbar-default .navbar-nav > li > a:hover, a:active{
+  color: black;
+  border-bottom: 2px solid black;
+}
+.custom_logo{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 63px;
+  line-height: 63px;
+  font-weight: 600;
+  font-size: 2.0em;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: black!important;
+}

@@ -1,0 +1,14 @@
+<div id= "{{id}}" class="owl-carousel owl-theme owl-container">
+  <div *ngFor= "let item of items;" class="item">
+    <div class="owl textoverlay {{item.textOverlayPosition}} {{item.textOverlayColor}}">
+      <span><h1>UNLIMITED</h1></span>
+      <span><h1>UNLEASHED</h1></span>
+      <span>The Unlimited Colorway footwear collection evokes</span>
+      <span>the limitless potential of athletes in motion.</span>
+      <button type="button" class="btn btn-default" style="margin-top:25px">LEARN MORE</button>
+    </div>
+    <div>
+      <img src="{{item.imgUrl}}">
+    </div>
+  </div>
+</div>
