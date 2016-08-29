@@ -7,6 +7,81 @@ main {
 .navbar a {
   color: black;
 }
+.navbar{
+  border-bottom: 1px solid #E5E5E5;
+}
+.navbar-nav{
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.navbar-fixed-top {
+  min-height: 65px;
+}
+.nav > li > a{
+  display: inline-block;
+}
+
+.navbar-nav > li {
+  line-height: 63px;
+  font-weight: 400;
+  font-size: 1.0em;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color:#4e4c4b;
+}
+
+.navbar-custom-middle .navbar-nav > li > a:hover, a:active{
+  color: black;
+  border-bottom: 2px solid black;
+  font-weight: 600;
+}
+.custom_logo{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 63px;
+  line-height: 63px;
+  font-weight: 600;
+  font-size: 2.0em;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: black!important;
+}
+.custom_logo > img {
+  height: 63px;
+  
+}
+.navbar-custom-middle{
+  text-align: center;
+}
+
+/*iPhone*/
+@media (max-width: 768px) {
+  .navbar .navbar-custom-middle{
+    display: none;
+  }
+  .navbar .navbar-custom-right{
+    display: none;
+    vertical-align: middle;
+  }
+}
+
+.row {
+  display: table;
+  margin: 0px;
+  width: 100%;
+}
+
+[class*="col-"] {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
 footer {
   background-color: #191919;
   clear: both;
@@ -14,8 +89,6 @@ footer {
 }
 .footer-container {
   padding: 42px 42px 0;
-  min-width: 684px;
-  max-width: 940px;
   margin: 0 auto;
   display: inline-block;
   width: 100%;
@@ -46,53 +119,4 @@ footer {
 }
 .footer-column-header a {
   color: white!important;
-}
-
-.navbar{
-  border-bottom: 1px solid #E5E5E5;
-}
-.navbar-nav {
-  display:inline-block;
-  float:none;
-}
-.navbar-collapse{
-  text-align: center;
-}
-.navbar-fixed-top {
-  min-height: 65px;
-}
-.navbar-brand{
-  /*line-height: 68px;
-  padding-top: 0px;
-  padding-bottom: 0px;*/
-}
-.navbar-nav > li > a {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  height: 63px;
-  line-height: 63px;
-  font-weight: 400;
-  font-size: 1.1em;
-  letter-spacing: .06em;
-  text-transform: uppercase;
-}
-
-.navbar-default .navbar-nav > li > a{
-  color:#4e4c4b;
-}
-
-.navbar-default .navbar-nav > li > a:hover, a:active{
-  color: black;
-  border-bottom: 2px solid black;
-}
-.custom_logo{
-  padding-top: 0px;
-  padding-bottom: 0px;
-  height: 63px;
-  line-height: 63px;
-  font-weight: 600;
-  font-size: 2.0em;
-  letter-spacing: .09em;
-  text-transform: uppercase;
-  color: black!important;
 }

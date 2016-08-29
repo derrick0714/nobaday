@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { Carousel } from '../../componets/carousel/carousel.component.ts'
+import { BannerImg } from '../../componets/bannerImg/bannerImg.component.ts'
+
 
 @Component({
   selector: 'home',
@@ -7,7 +9,8 @@ import { Carousel } from '../../componets/carousel/carousel.component.ts'
 
   ],
   directives: [
-    Carousel
+    Carousel,
+    BannerImg
   ],
   pipes: [],
   styleUrls: ['./home.style.css'],
