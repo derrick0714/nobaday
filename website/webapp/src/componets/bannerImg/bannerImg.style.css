@@ -1,0 +1,67 @@
+.bannerImgContainer{
+  padding: 4.5em 4.5em 1em 4.5em;
+  display: table;
+  position: relative;
+}
+@media (max-width: 992px) {
+  .bannerImgContainer{
+    padding: 0px;
+  }
+}
+
+.bannerImgContainer .bannerimg{
+  padding: 0px;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .bannerImgContainer .bannerimg{
+      width: 100vw;
+  }
+}
+
+.bannerImgContainer .bannerimg > img {
+  width: 100%;
+  min-height: 150px;
+  border: 0px;
+}
+
+.bannerImgContainer .bannertext{
+  background: white;
+  padding: 3em;
+  height: 555px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .bannerImgContainer .bannertext{
+    padding: 0px;
+  }
+}
+
+.bannerImgContainer .bannertext > span{
+  display: inline-block;
+}
+
+
+.bannerImgContainer .bannertext > span > h2{
+  line-height: 4em;
+  bottom: 0px;
+  font-weight: 800;
+}
+
+.bannerImgContainer .bannertext > button{
+  font-size: 1.2em;
+  padding: 1.3em;
+  border-color: black;
+}
+
+.bannerImgContainer .bannertext > button{
+  font-size: 1.2em;
+  padding: 1.3em;
+  border-color: black;
+  margin-top: 2em;
+}
+@media (min-width: 1500px) {
+  .bannerImgContainer .bannertext > button{
+    margin-top: 8em;
+  }
+}

@@ -1,6 +1,7 @@
 import { WebpackAsyncRoute } from '@angularclass/webpack-toolkit';
 import { RouterConfig } from '@angular/router';
 import { Home } from './home';
+import { Products } from './products'
 import { NoContent } from './no-content';
 
 import { DataResolver } from './app.resolver';
@@ -10,6 +11,7 @@ export const routes: RouterConfig = [
   { path: 'home',  component: Home },
   // make sure you match the component type string to the require in asyncRoutes
   { path: 'about', component: 'About'},
+  { path: 'products', component: 'Products'},
   // async components with children routes must use WebpackAsyncRoute
   { path: 'detail', component: 'Detail',
     canActivate: [ WebpackAsyncRoute ],
