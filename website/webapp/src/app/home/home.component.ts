@@ -22,7 +22,7 @@ export class Home {
   }
 
   ngOnInit() {
-    console.log('hello `Home` component123123');
+    console.log('init `Home` component');
   }
 
   submitState(value) {

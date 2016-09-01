@@ -35,7 +35,7 @@ export const APPLICATION_PROVIDERS = [
 
   ...HTTP_PROVIDERS,
 
-  { provide: LocationStrategy, useClass: HashLocationStrategy }
+  //{ provide: LocationStrategy, useClass: HashLocationStrategy }
   //provide(APP_BASE_HREF, {useValue: '/'})
   //{ provide: LocationStrategy, useClass: PathLocationStrategy }
 ];

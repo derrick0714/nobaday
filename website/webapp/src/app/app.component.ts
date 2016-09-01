@@ -4,6 +4,8 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 
 import { AppState } from './app.service';
+import { ProductService } from '../service/product.service';
+
 
 /*
  * App Component
@@ -12,16 +14,18 @@ import { AppState } from './app.service';
 @Component({
   selector: 'app',
   encapsulation: ViewEncapsulation.None,
+  providers: [
+    ProductService
+  ],
   styleUrls: [
     './app.style.css'
   ],
   templateUrl: './app.template.html'
 })
+
 export class App {
-
-
   constructor(
-    public appState: AppState) {
+    public appState: AppState, public productService:ProductService) {
 
   }
 

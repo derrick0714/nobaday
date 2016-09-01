@@ -46,7 +46,6 @@ export class Carousel {
   }
 
   ngAfterViewInit() {
-    console.log(this.options);
     (<any>$('#'+this.id)).owlCarousel(this.options)
   }
 

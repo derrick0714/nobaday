@@ -51,9 +51,12 @@ main {
   text-transform: uppercase;
   color: black!important;
 }
+custom_logo > a:hover, a:active{
+  border-bottom: 0px;
+}
+
 .custom_logo > img {
   height: 63px;
-  
 }
 .navbar-custom-middle{
   text-align: center;
@@ -120,3 +123,4 @@ footer {
 .footer-column-header a {
   color: white!important;
 }
+
