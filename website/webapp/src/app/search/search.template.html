@@ -1,0 +1,9 @@
+<div class="search">
+  <description></description>
+  <div class = "search-result-warp">
+    <filter class="filter col-md-3"></filter>
+    <div class = "search-list col-md-9">
+      <item class="col-xs-12 col-sm-6 col-md-4 search-item"  *ngFor= "let product of productList;" [productInfo]="product"></item>
+    </div>
+  </div>
+</div>

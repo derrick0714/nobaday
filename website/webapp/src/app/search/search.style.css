@@ -1,0 +1,38 @@
+.search{
+  margin-top: 64px;
+  background: #f5f5f5;
+  color:#4e4c4b;
+}
+.search-result-warp{
+  display: inline-block;
+  width: 100%;
+  padding: 4em 5% 4em 5%;
+}
+@media (max-width: 1200px) {
+ .search-result-warp{
+    padding: 0;
+  }
+}
+
+.search-item{
+  margin-top: 0em;
+  margin-bottom: 4em;
+  transition: all 0.4s ease-out;
+}
+
+.search-item.removeit{
+  display: block;
+  opacity:0;
+  width: 0;
+  height: 0;
+  overflow: hidden; 
+}
+
+.search-list{
+  padding: 0;
+}
+
+.filter{
+  text-align: right;
+  padding: 0 2% 0 0;
+}

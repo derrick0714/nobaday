@@ -1,0 +1,15 @@
+.description{
+  text-align: center;
+  padding: 2em;
+  display: inline-block;
+  width: 100%;
+  color: #4e4c4b;
+  border-bottom: 1px #111;
+}
+.line-break{
+  height: 1px;
+  width: 200px;
+  background-color: #e5e5e5;
+  position: absolute;
+  left: calc(50vw - 100px);
+}

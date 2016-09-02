@@ -11,6 +11,7 @@ export const routes: RouterConfig = [
   { path: '',      component: Home },
   { path: 'home',  component: Home },
   { path: 'search', component: Search},
+  { path: 'search/:query', component: Search},
   { path: 'detail/:id', component: Detail},
 
   // make sure you match the component type string to the require in asyncRoutes
